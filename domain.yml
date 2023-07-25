@@ -1,0 +1,140 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pertanyaan_kesatu
+  - pertanyaan_kedua
+  - pertanyaan_ketiga
+  - pertanyaan_keempat
+  - pertanyaan_kelima
+  - pertanyaan_keenam
+  - pertanyaan_ketujuh
+  - pertanyaan_kedelapan
+  - pertanyaan_kesembilan
+ 
+
+responses:
+  utter_greet:
+  - text: "Halo! Selamat Datang di Chatbot Informasi Seputar Wisata di Kabupaten Semarang!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Iyaa, Silahkan"
+
+  utter_goodbye:
+  - text: "Terima Kasih! Semoga Membantu dan Mohon Maaf apabila ada kesalahan
+  \n\n Happy Have Fun for Your Holiday"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pertanyaan_kesatu:
+  - text: "1. Dairyland On The Valley, 
+\n\n2. Wisata Umbul Sidomukti, 
+\n\n3. Dusun Semilir, 
+\n\n4. Candi Gedong Songo, 
+\n\n5. Eling Bening, 
+\n\n6. Museum Kereta Api Ambarawa, 
+\n\n7. Saloka The Park"
+
+  utter_pertanyaan_kedua:
+  - text: "Fasilitas Sangat Memuaskan
+\n\nyaitu:
+\n\n1. Ketersediaan Ruang hijau,
+\n\n2. Area FoodCourt,
+\n\n3. Akses Transpotasi Mudah untuk kendaraan Roda 2 dan Roda 4 Serta Kendaraan Besar Travel,
+\n\n4. Pusat Oleh-Oleh"
+
+  utter_pertanyaan_ketiga:
+  - text: "Detail Informasi pada Wisata Dairyland On The Valley yaitu
+\n\n1. Harga Biaya Tiket Masukdibagi menjadi beberapa akses meliputi:
+\n\na. Tiket Masuk Diaryland: Rp.15.000 (hanya mengakses yang ada didalam taman yaitu aneka satwa & farm)
+\n\nb. Tiket Minimania: Rp.25.000 (Akses masuk taman ikon miniatur dunia)
+\n\nc. Tiket Combo (Dairyland On The Valley+Minimania): Rp: 35.OOO
+\n\n2. Fasilitas:
+\n\na. Tour Guide
+\n\nb. Resto
+\n\nc. Pusat Oleh-Oleh
+\n\nd. Lokasi mudah dijangkau dengan kendaran bus"
+
+  utter_pertanyaan_keempat:
+  - text: "Detail Informasi pada Wisata Umbul Sidomukti yaitu
+\n\n1. Tiket Masuk: Rp.5000
+\n\n2. Fasilitas:
+\n\na. Kamar Ganti
+\n\nb. Kantin (Tempat Makan)
+\n\nc. Lokasi sulit dijangkau dengan kendaran bus"
+
+  utter_pertanyaan_kelima:
+  - text: "Detail Informasi pada Wisata Dusun Semilir yaitu
+\n\n1. Tiket Masuk: 
+\n\na. Weekdays: Rp.120.000 (Dewasa dan Anak Semua Wahana)
+\n\nb. Weekends: Rp. 150.000 (Dewasa dan Anak Semua Wahana)
+\n\nc. Umum/Reguler(Tiket Masuk saja): Rp.30.000
+\n\n2. Fasilitas:
+\n\na. Wahana Permainan
+\n\nb. Resto
+\n\nc. Kamar Ganti
+\n\nd. Villa Penginapan
+\n\ne. Pusat Oleh-oleh
+\n\nf. Lokasi mudah dijangkau dengan kendaran bus"
+
+  utter_pertanyaan_keenam:
+  - text: "Detail Informasi pada Wisata Candi Gedong Songo yaitu
+\n\n1. Tiket Masuk:
+\n\na. Weekdays: Rp.10.000 (Tiket Masuk Saja)
+\n\nb. Weekends: Rp.15.000 (Tiket Masuk Saja)
+\n\n2. Fasilitas:
+\n\na. Tempat Hijau Candi
+\n\nb. Penyewaan Kuda
+\n\nc. Pusat Oleh-oleh
+\n\nd. Lokasi dapat dijangkau dengan kendaran bus kecil"
+
+  utter_pertanyaan_ketujuh:
+  - text: "Detail Informasi pada Wisata Eling Bening yaitu
+\n\n1. Tiket Masuk: 
+\n\na. Weekdays: Rp.15.000 
+\n\nb. Weekends: Rp.20.000 
+\n\n2. Fasilitas:
+\n\na. Area Foto
+\n\nb. Resto
+\n\nc. Pusat Oleh-oleh
+\n\nd. Lokasi mudah dijangkau dengan kendaran bus"
+
+  utter_pertanyaan_kedelapan:
+  - text: "Detail Informasi Wisata Museum Kereta Api Ambarawa yaitu
+\n\n1.  Tiket Masuk: Rp.100.000
+\n\n2. Fasilitas:
+\n\na. Kereta Wisata
+\n\nb. Pusat Oleh-oleh
+\n\nc. Area Hijau persawahan
+\n\nd. Lokasi mudah dijangkau dengan kendaran bus"
+
+  utter_pertanyaan_kesembilan:
+  - text: "Detail Informasi wisata Saloka The Park yaitu
+\n\n1. Tiket Masuk:
+\n\na. Weekdays: Rp.120.000 (Semua Wahana)
+\n\nb. Weekends: Rp.150.000 (Semua Wahana)
+\n\nc. Harga sewaktu dapat berubah apabila ada promo cek di Instagram
+\n\n2. Fasilitas:
+\n\na. Area Foto 
+\n\nb. Resto
+\n\nc. Pusat Oleh-oleh
+\n\nd. Wahana Renang
+\n\ne. Lokasi mudah dijangkau dengan kendaran bus"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

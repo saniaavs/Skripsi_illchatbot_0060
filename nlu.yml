@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: pertanyaan_kesatu
+  examples: |
+    - apa wisata populer di kabupaten semarang?
+    - wisata apa yang cocok untuk semua kalangan?
+    - wisata apa yang dapat diakses dengan mudah dengan semua transpotasi?
+- intent: pertanyaan_kedua
+  examples: |
+    - fasilitas apa saja disana?
+    - apakah ada tempat makan disana?
+    - apakah ada tempat bermain anak?
+- intent: pertanyaan_ketiga
+  examples: |
+    - berikan informasi seputar Dairyland On The Valley?
+    - apa saja fasilitas detail Dairyland On The Valley?
+    - berapa tiket masuk Dairyland On The Valley?
+- intent: pertanyaan_keempat
+  examples: |
+    - berikan informasi seputar Wisata Umbul Sidomukti?
+    - apa saja fasilitas detail Wisata Umbul Sidomukti?
+    - berapa tiket masuk Wisata Umbul Sidomukti?
+- intent: pertanyaan_kelima
+  examples: |
+    - berikan informasi seputar Wisata Dusun Semilir?
+    - apa saja fasilitas detail Wisata Dusun Semilir?
+    - berapa tiket masuk Wisata Dusun Semilir?
+- intent: pertanyaan_keenam
+  examples: |
+    - berikan informasi seputar Wisata Candi Gedong Songo?
+    - apa saja fasilitas detail Wisata Candi Gedong Songo?
+    - berapa tiket masuk Wisata Candi Gedong Songo?
+- intent: pertanyaan_ketujuh
+  examples: |
+    - berikan informasi seputar Wisata Eling Bening?
+    - apa saja fasilitas detail Wisata Eling Bening?
+    - berapa tiket masuk Wisata Eling Bening?
+- intent: pertanyaan_kedelapan
+  examples: |
+    - berikan informasi seputar Museum Kereta Api Ambarawa?
+    - apa saja fasilitas detail Museum Kereta Api Ambarawa?
+    - berapa tiket masuk Museum Kereta Api Ambarawa?
+- intent: pertanyaan_kesembilan
+  examples: |
+    - berikan informasi seputar Wisata Saloka The Park?
+    - apa saja fasilitas detail Wisata Saloka The Park?
+    - berapa tiket masuk Wisata Saloka The Park?

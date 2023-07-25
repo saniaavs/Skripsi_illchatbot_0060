@@ -1,0 +1,78 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: satu path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_happy
+  - intent: pertanyaan_kesatu
+  - action: utter_pertanyaan_kesatu
+
+- story: dua path
+  steps:
+  - intent: pertanyaan_kedua
+  - action: utter_pertanyaan_kedua
+
+- story: tiga path
+  steps:
+  - intent: pertanyaan_ketiga
+  - action: utter_pertanyaan_ketiga
+
+- story: empat path
+  steps:
+  - intent: pertanyaan_keempat
+  - action: utter_pertanyaan_keempat
+
+- story: lima path
+  steps:
+  - intent: pertanyaan_kelima
+  - action: utter_pertanyaan_kelima
+
+- story: enam path
+  steps:
+  - intent: pertanyaan_keenam
+  - action: utter_pertanyaan_keenam
+
+- story: tujuh path
+  steps:
+  - intent: pertanyaan_ketujuh
+  - action: utter_pertanyaan_ketujuh
+
+- story: delapan path
+  steps:
+  - intent: pertanyaan_kedelapan
+  - action: utter_pertanyaan_kedelapan
+
+- story: sembilan path
+  steps:
+  - intent: pertanyaan_kesembilan
+  - action: utter_pertanyaan_kesembilan
